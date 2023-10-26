@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Public+Sans:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+.container {
+  width: 100%;
+  max-width: 130rem;
+  padding: 0rem 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.dashboard {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dashboardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboardHead > .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head > :nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.durationButton > select {
+  border: none;
+  background: var(--orange-gradient);
+  padding: 10px;
+  font-weight: 500;
+  color: beige;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+.selectoption {
+  background-color: rgba(
+    255,
+    114,
+    70,
+    0.99
+  ); /* Change this to your desired background color */
+  color: beige;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--orange-gradient);
+  border-radius: 15px;
+  padding: 25px;
+  width: 200px;
+  background: var(--orange-gradient);
+  box-shadow: rgba(255, 114, 70, 0.99) 0px 4px 18px;
+}
+.cardHead {
+  display: flex;
+  gap: 15px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  flex-grow: 1;
+}
+
+.change {
+  color: greenyellow;
+  text-shadow: black 0 4px 18px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 0 0 20px;
+}
+
+.cardAmount {
+  display: flex;
+  gap: 5px;
+  font-weight: 600;
+  text-shadow: black 0 4px 18px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.cardAmount>:nth-child(1){
+    /* font-size: 20px; */
+    margin-bottom: 0;
+}

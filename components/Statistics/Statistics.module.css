@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    font-weight: wrap;
+}
+
+.container1{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    color: beige;
+    background: var(--orange-gradient);
+    height: 2.5rem;
+    width: 2.2rem;
+    padding: .2rem .1rem .2rem;
+    border-radius: 4px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    /* color: var(grey); */
+}
+/* .content>:nth-child(1){
+    font-size: 0.8rem;
+} */
+
+.content>:nth-child(2){
+    font-size: 1.5rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    /* color: var(grey); */
+}
+
+.container2>:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.arrow>svg{
+    width: 2rem;
+    height: 2rem;
+}
